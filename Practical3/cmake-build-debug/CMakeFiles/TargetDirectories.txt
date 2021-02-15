@@ -1,0 +1,4 @@
+/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical3/cmake-build-debug/CMakeFiles/Practical3_moreScanF.dir
+/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical3/cmake-build-debug/CMakeFiles/Practical3.dir
