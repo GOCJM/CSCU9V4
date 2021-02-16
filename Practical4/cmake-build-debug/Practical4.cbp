@@ -27,6 +27,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Practical4_chessboard">
+				<Option output="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug/Practical4_chessboard" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Practical4_chessboard"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Practical4_chessboard/fast">
+				<Option output="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug/Practical4_chessboard" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Practical4_chessboard/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical4/cmake-build-debug"/>
 				<Option type="4"/>
@@ -198,6 +238,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical4/chessboard.c">
+			<Option target="Practical4_chessboard"/>
+		</Unit>
 		<Unit filename="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical4/main.c">
 			<Option target="Practical4"/>
 		</Unit>

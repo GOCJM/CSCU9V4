@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Practical4_chessboard
+
+# Build rule for target.
+Practical4_chessboard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Practical4_chessboard
+.PHONY : Practical4_chessboard
+
+# fast build rule for target.
+Practical4_chessboard/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical4_chessboard.dir/build.make CMakeFiles/Practical4_chessboard.dir/build
+.PHONY : Practical4_chessboard/fast
+
+#=============================================================================
 # Target rules for targets named Practical4_repDigits3
 
 # Build rule for target.
@@ -181,6 +194,33 @@ Practical4: cmake_check_build_system
 Practical4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical4.dir/build.make CMakeFiles/Practical4.dir/build
 .PHONY : Practical4/fast
+
+chessboard.o: chessboard.c.o
+
+.PHONY : chessboard.o
+
+# target to build an object file
+chessboard.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical4_chessboard.dir/build.make CMakeFiles/Practical4_chessboard.dir/chessboard.c.o
+.PHONY : chessboard.c.o
+
+chessboard.i: chessboard.c.i
+
+.PHONY : chessboard.i
+
+# target to preprocess a source file
+chessboard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical4_chessboard.dir/build.make CMakeFiles/Practical4_chessboard.dir/chessboard.c.i
+.PHONY : chessboard.c.i
+
+chessboard.s: chessboard.c.s
+
+.PHONY : chessboard.s
+
+# target to generate assembly for a file
+chessboard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical4_chessboard.dir/build.make CMakeFiles/Practical4_chessboard.dir/chessboard.c.s
+.PHONY : chessboard.c.s
 
 main.o: main.c.o
 
@@ -302,9 +342,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Practical4"
+	@echo "... Practical4_chessboard"
 	@echo "... Practical4_repDigits1"
 	@echo "... Practical4_repDigits2"
 	@echo "... Practical4_repDigits3"
+	@echo "... chessboard.o"
+	@echo "... chessboard.i"
+	@echo "... chessboard.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
