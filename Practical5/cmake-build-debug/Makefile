@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Practical5_amount
+
+# Build rule for target.
+Practical5_amount: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Practical5_amount
+.PHONY : Practical5_amount
+
+# fast build rule for target.
+Practical5_amount/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical5_amount.dir/build.make CMakeFiles/Practical5_amount.dir/build
+.PHONY : Practical5_amount/fast
+
+#=============================================================================
 # Target rules for targets named Practical5
 
 # Build rule for target.
@@ -142,6 +155,33 @@ Practical5: cmake_check_build_system
 Practical5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical5.dir/build.make CMakeFiles/Practical5.dir/build
 .PHONY : Practical5/fast
+
+amount.o: amount.c.o
+
+.PHONY : amount.o
+
+# target to build an object file
+amount.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical5_amount.dir/build.make CMakeFiles/Practical5_amount.dir/amount.c.o
+.PHONY : amount.c.o
+
+amount.i: amount.c.i
+
+.PHONY : amount.i
+
+# target to preprocess a source file
+amount.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical5_amount.dir/build.make CMakeFiles/Practical5_amount.dir/amount.c.i
+.PHONY : amount.c.i
+
+amount.s: amount.c.s
+
+.PHONY : amount.s
+
+# target to generate assembly for a file
+amount.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical5_amount.dir/build.make CMakeFiles/Practical5_amount.dir/amount.c.s
+.PHONY : amount.c.s
 
 main.o: main.c.o
 
@@ -179,6 +219,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Practical5"
+	@echo "... Practical5_amount"
+	@echo "... amount.o"
+	@echo "... amount.i"
+	@echo "... amount.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

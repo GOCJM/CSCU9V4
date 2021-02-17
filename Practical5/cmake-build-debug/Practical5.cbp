@@ -37,6 +37,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Practical5_amount">
+				<Option output="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Practical5_amount" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Practical5_amount"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Practical5_amount/fast">
+				<Option output="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Practical5_amount" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Practical5_amount/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Practical5">
 				<Option output="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug/Practical5" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical5/cmake-build-debug"/>
@@ -78,6 +118,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical5/amount.c">
+			<Option target="Practical5_amount"/>
+		</Unit>
 		<Unit filename="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical5/main.c">
 			<Option target="Practical5"/>
 		</Unit>
