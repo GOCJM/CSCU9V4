@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Practical6_e.dir/exercise1.c.o  -o Practical6_e 

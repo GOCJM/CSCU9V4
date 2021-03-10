@@ -1,0 +1,3 @@
+/Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical7/cmake-build-debug/CMakeFiles/Practical7.dir
