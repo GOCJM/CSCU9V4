@@ -64,15 +64,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical6"
+CMAKE_SOURCE_DIR = /Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical6/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Practical6_e.dir/all
 all: CMakeFiles/Practical6.dir/all
 
 .PHONY : all
@@ -83,9 +84,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Practical6_e.dir/clean
 clean: CMakeFiles/Practical6.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Practical6_e.dir
+
+# All Build rule for target.
+CMakeFiles/Practical6_e.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical6_e.dir/build.make CMakeFiles/Practical6_e.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical6_e.dir/build.make CMakeFiles/Practical6_e.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Practical6_e"
+.PHONY : CMakeFiles/Practical6_e.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Practical6_e.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Practical6_e.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Practical6_e.dir/rule
+
+# Convenience name for target.
+Practical6_e: CMakeFiles/Practical6_e.dir/rule
+
+.PHONY : Practical6_e
+
+# clean rule for target.
+CMakeFiles/Practical6_e.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical6_e.dir/build.make CMakeFiles/Practical6_e.dir/clean
+.PHONY : CMakeFiles/Practical6_e.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Practical6.dir
@@ -94,14 +123,14 @@ clean: CMakeFiles/Practical6.dir/clean
 CMakeFiles/Practical6.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical6.dir/build.make CMakeFiles/Practical6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical6.dir/build.make CMakeFiles/Practical6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical6/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Practical6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Practical6"
 .PHONY : CMakeFiles/Practical6.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Practical6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical6/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Practical6.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical6/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Practical6.dir/rule
 
 # Convenience name for target.

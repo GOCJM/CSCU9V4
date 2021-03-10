@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical6"
+CMAKE_SOURCE_DIR = /Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical6/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical6/cmake-build-debug/CMakeFiles" "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical6/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6/cmake-build-debug/CMakeFiles /Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical6/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cameronmckimm/Documents/CSCU9V4/CSCU9V4/Practical6/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Practical6_e
+
+# Build rule for target.
+Practical6_e: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Practical6_e
+.PHONY : Practical6_e
+
+# fast build rule for target.
+Practical6_e/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical6_e.dir/build.make CMakeFiles/Practical6_e.dir/build
+.PHONY : Practical6_e/fast
+
+#=============================================================================
 # Target rules for targets named Practical6
 
 # Build rule for target.
@@ -142,6 +155,33 @@ Practical6: cmake_check_build_system
 Practical6/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical6.dir/build.make CMakeFiles/Practical6.dir/build
 .PHONY : Practical6/fast
+
+exercise1.o: exercise1.c.o
+
+.PHONY : exercise1.o
+
+# target to build an object file
+exercise1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical6_e.dir/build.make CMakeFiles/Practical6_e.dir/exercise1.c.o
+.PHONY : exercise1.c.o
+
+exercise1.i: exercise1.c.i
+
+.PHONY : exercise1.i
+
+# target to preprocess a source file
+exercise1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical6_e.dir/build.make CMakeFiles/Practical6_e.dir/exercise1.c.i
+.PHONY : exercise1.c.i
+
+exercise1.s: exercise1.c.s
+
+.PHONY : exercise1.s
+
+# target to generate assembly for a file
+exercise1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical6_e.dir/build.make CMakeFiles/Practical6_e.dir/exercise1.c.s
+.PHONY : exercise1.c.s
 
 main.o: main.c.o
 
@@ -179,6 +219,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Practical6"
+	@echo "... Practical6_e"
+	@echo "... exercise1.o"
+	@echo "... exercise1.i"
+	@echo "... exercise1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
