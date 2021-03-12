@@ -14,6 +14,7 @@ int max_min(int *array, int array_size, int *large, int *small) {
     }
     *large = large_current;
     *small = small_current;
+    return 0;
 }
 
 int main() {
