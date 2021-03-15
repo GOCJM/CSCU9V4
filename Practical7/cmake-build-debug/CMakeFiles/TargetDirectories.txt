@@ -1,3 +1,5 @@
 /Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical7/cmake-build-debug/CMakeFiles/Practical7_q2.dir
+/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical7/cmake-build-debug/CMakeFiles/Practical7_q.dir
 /Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical7/cmake-build-debug/CMakeFiles/Practical7.dir

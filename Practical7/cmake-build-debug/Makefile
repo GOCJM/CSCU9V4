@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Practical7_q2
+
+# Build rule for target.
+Practical7_q2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Practical7_q2
+.PHONY : Practical7_q2
+
+# fast build rule for target.
+Practical7_q2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical7_q2.dir/build.make CMakeFiles/Practical7_q2.dir/build
+.PHONY : Practical7_q2/fast
+
+#=============================================================================
+# Target rules for targets named Practical7_q
+
+# Build rule for target.
+Practical7_q: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Practical7_q
+.PHONY : Practical7_q
+
+# fast build rule for target.
+Practical7_q/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical7_q.dir/build.make CMakeFiles/Practical7_q.dir/build
+.PHONY : Practical7_q/fast
+
+#=============================================================================
 # Target rules for targets named Practical7
 
 # Build rule for target.
@@ -170,6 +196,60 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical7.dir/build.make CMakeFiles/Practical7.dir/main.c.s
 .PHONY : main.c.s
 
+question.o: question.c.o
+
+.PHONY : question.o
+
+# target to build an object file
+question.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical7_q.dir/build.make CMakeFiles/Practical7_q.dir/question.c.o
+.PHONY : question.c.o
+
+question.i: question.c.i
+
+.PHONY : question.i
+
+# target to preprocess a source file
+question.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical7_q.dir/build.make CMakeFiles/Practical7_q.dir/question.c.i
+.PHONY : question.c.i
+
+question.s: question.c.s
+
+.PHONY : question.s
+
+# target to generate assembly for a file
+question.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical7_q.dir/build.make CMakeFiles/Practical7_q.dir/question.c.s
+.PHONY : question.c.s
+
+question2.o: question2.c.o
+
+.PHONY : question2.o
+
+# target to build an object file
+question2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical7_q2.dir/build.make CMakeFiles/Practical7_q2.dir/question2.c.o
+.PHONY : question2.c.o
+
+question2.i: question2.c.i
+
+.PHONY : question2.i
+
+# target to preprocess a source file
+question2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical7_q2.dir/build.make CMakeFiles/Practical7_q2.dir/question2.c.i
+.PHONY : question2.c.i
+
+question2.s: question2.c.s
+
+.PHONY : question2.s
+
+# target to generate assembly for a file
+question2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical7_q2.dir/build.make CMakeFiles/Practical7_q2.dir/question2.c.s
+.PHONY : question2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,9 +259,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Practical7"
+	@echo "... Practical7_q"
+	@echo "... Practical7_q2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... question.o"
+	@echo "... question.i"
+	@echo "... question.s"
+	@echo "... question2.o"
+	@echo "... question2.i"
+	@echo "... question2.s"
 .PHONY : help
 
 
