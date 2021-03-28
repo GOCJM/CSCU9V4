@@ -4,3 +4,5 @@ project(Practical8 C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(Practical8 my_wc.c)
+add_executable(Practical8_hex hexWitchCraft.c)
+add_executable(Practical8_hexTest testHex.c)

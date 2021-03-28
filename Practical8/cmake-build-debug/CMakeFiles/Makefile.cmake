@@ -47,5 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Practical8_hexTest.dir/DependInfo.cmake"
+  "CMakeFiles/Practical8_hex.dir/DependInfo.cmake"
   "CMakeFiles/Practical8.dir/DependInfo.cmake"
   )

@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Practical8_hexTest
+
+# Build rule for target.
+Practical8_hexTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Practical8_hexTest
+.PHONY : Practical8_hexTest
+
+# fast build rule for target.
+Practical8_hexTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_hexTest.dir/build.make CMakeFiles/Practical8_hexTest.dir/build
+.PHONY : Practical8_hexTest/fast
+
+#=============================================================================
+# Target rules for targets named Practical8_hex
+
+# Build rule for target.
+Practical8_hex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Practical8_hex
+.PHONY : Practical8_hex
+
+# fast build rule for target.
+Practical8_hex/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_hex.dir/build.make CMakeFiles/Practical8_hex.dir/build
+.PHONY : Practical8_hex/fast
+
+#=============================================================================
 # Target rules for targets named Practical8
 
 # Build rule for target.
@@ -142,6 +168,33 @@ Practical8: cmake_check_build_system
 Practical8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8.dir/build.make CMakeFiles/Practical8.dir/build
 .PHONY : Practical8/fast
+
+hexWitchCraft.o: hexWitchCraft.c.o
+
+.PHONY : hexWitchCraft.o
+
+# target to build an object file
+hexWitchCraft.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_hex.dir/build.make CMakeFiles/Practical8_hex.dir/hexWitchCraft.c.o
+.PHONY : hexWitchCraft.c.o
+
+hexWitchCraft.i: hexWitchCraft.c.i
+
+.PHONY : hexWitchCraft.i
+
+# target to preprocess a source file
+hexWitchCraft.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_hex.dir/build.make CMakeFiles/Practical8_hex.dir/hexWitchCraft.c.i
+.PHONY : hexWitchCraft.c.i
+
+hexWitchCraft.s: hexWitchCraft.c.s
+
+.PHONY : hexWitchCraft.s
+
+# target to generate assembly for a file
+hexWitchCraft.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_hex.dir/build.make CMakeFiles/Practical8_hex.dir/hexWitchCraft.c.s
+.PHONY : hexWitchCraft.c.s
 
 my_wc.o: my_wc.c.o
 
@@ -170,6 +223,33 @@ my_wc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8.dir/build.make CMakeFiles/Practical8.dir/my_wc.c.s
 .PHONY : my_wc.c.s
 
+testHex.o: testHex.c.o
+
+.PHONY : testHex.o
+
+# target to build an object file
+testHex.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_hexTest.dir/build.make CMakeFiles/Practical8_hexTest.dir/testHex.c.o
+.PHONY : testHex.c.o
+
+testHex.i: testHex.c.i
+
+.PHONY : testHex.i
+
+# target to preprocess a source file
+testHex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_hexTest.dir/build.make CMakeFiles/Practical8_hexTest.dir/testHex.c.i
+.PHONY : testHex.c.i
+
+testHex.s: testHex.c.s
+
+.PHONY : testHex.s
+
+# target to generate assembly for a file
+testHex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_hexTest.dir/build.make CMakeFiles/Practical8_hexTest.dir/testHex.c.s
+.PHONY : testHex.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,9 +259,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Practical8"
+	@echo "... Practical8_hex"
+	@echo "... Practical8_hexTest"
+	@echo "... hexWitchCraft.o"
+	@echo "... hexWitchCraft.i"
+	@echo "... hexWitchCraft.s"
 	@echo "... my_wc.o"
 	@echo "... my_wc.i"
 	@echo "... my_wc.s"
+	@echo "... testHex.o"
+	@echo "... testHex.i"
+	@echo "... testHex.s"
 .PHONY : help
 
 

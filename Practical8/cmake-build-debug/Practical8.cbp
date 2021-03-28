@@ -37,6 +37,86 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Practical8_hexTest">
+				<Option output="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Practical8_hexTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 Practical8_hexTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Practical8_hexTest/fast">
+				<Option output="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Practical8_hexTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 Practical8_hexTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Practical8_hex">
+				<Option output="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Practical8_hex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 Practical8_hex"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Practical8_hex/fast">
+				<Option output="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Practical8_hex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 Practical8_hex/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cameronmckimm/Desktop/Education/University\ of\ Stirling/Modules/Year\ 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Practical8">
 				<Option output="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/Practical8" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug"/>
@@ -78,8 +158,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/hexWitchCraft.c">
+			<Option target="Practical8_hex"/>
+		</Unit>
 		<Unit filename="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/my_wc.c">
 			<Option target="Practical8"/>
+		</Unit>
+		<Unit filename="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/testHex.c">
+			<Option target="Practical8_hexTest"/>
 		</Unit>
 		<Unit filename="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
