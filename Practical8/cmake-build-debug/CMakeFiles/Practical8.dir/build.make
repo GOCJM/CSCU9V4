@@ -77,27 +77,27 @@ include CMakeFiles/Practical8.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Practical8.dir/flags.make
 
-CMakeFiles/Practical8.dir/main.c.o: CMakeFiles/Practical8.dir/flags.make
-CMakeFiles/Practical8.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Practical8.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Practical8.dir/main.c.o   -c "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/main.c"
+CMakeFiles/Practical8.dir/my_wc.c.o: CMakeFiles/Practical8.dir/flags.make
+CMakeFiles/Practical8.dir/my_wc.c.o: ../my_wc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Practical8.dir/my_wc.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Practical8.dir/my_wc.c.o   -c "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/my_wc.c"
 
-CMakeFiles/Practical8.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Practical8.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/main.c" > CMakeFiles/Practical8.dir/main.c.i
+CMakeFiles/Practical8.dir/my_wc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Practical8.dir/my_wc.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/my_wc.c" > CMakeFiles/Practical8.dir/my_wc.c.i
 
-CMakeFiles/Practical8.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Practical8.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/main.c" -o CMakeFiles/Practical8.dir/main.c.s
+CMakeFiles/Practical8.dir/my_wc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Practical8.dir/my_wc.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/my_wc.c" -o CMakeFiles/Practical8.dir/my_wc.c.s
 
 # Object files for target Practical8
 Practical8_OBJECTS = \
-"CMakeFiles/Practical8.dir/main.c.o"
+"CMakeFiles/Practical8.dir/my_wc.c.o"
 
 # External object files for target Practical8
 Practical8_EXTERNAL_OBJECTS =
 
-Practical8: CMakeFiles/Practical8.dir/main.c.o
+Practical8: CMakeFiles/Practical8.dir/my_wc.c.o
 Practical8: CMakeFiles/Practical8.dir/build.make
 Practical8: CMakeFiles/Practical8.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Practical8"

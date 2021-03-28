@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/main.c
+/Users/cameronmckimm/Desktop/Education/University of Stirling/Modules/Year 2/CSCU9V4/Programming/C/Practicals/Practical8/my_wc.c
 stdio.h
+-
+stdbool.h
 -
 

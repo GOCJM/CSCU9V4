@@ -143,32 +143,32 @@ Practical8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8.dir/build.make CMakeFiles/Practical8.dir/build
 .PHONY : Practical8/fast
 
-main.o: main.c.o
+my_wc.o: my_wc.c.o
 
-.PHONY : main.o
+.PHONY : my_wc.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8.dir/build.make CMakeFiles/Practical8.dir/main.c.o
-.PHONY : main.c.o
+my_wc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8.dir/build.make CMakeFiles/Practical8.dir/my_wc.c.o
+.PHONY : my_wc.c.o
 
-main.i: main.c.i
+my_wc.i: my_wc.c.i
 
-.PHONY : main.i
+.PHONY : my_wc.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8.dir/build.make CMakeFiles/Practical8.dir/main.c.i
-.PHONY : main.c.i
+my_wc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8.dir/build.make CMakeFiles/Practical8.dir/my_wc.c.i
+.PHONY : my_wc.c.i
 
-main.s: main.c.s
+my_wc.s: my_wc.c.s
 
-.PHONY : main.s
+.PHONY : my_wc.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8.dir/build.make CMakeFiles/Practical8.dir/main.c.s
-.PHONY : main.c.s
+my_wc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8.dir/build.make CMakeFiles/Practical8.dir/my_wc.c.s
+.PHONY : my_wc.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Practical8"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... my_wc.o"
+	@echo "... my_wc.i"
+	@echo "... my_wc.s"
 .PHONY : help
 
 

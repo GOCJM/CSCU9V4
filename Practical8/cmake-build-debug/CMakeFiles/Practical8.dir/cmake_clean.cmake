@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Practical8.dir/main.c.o"
+  "CMakeFiles/Practical8.dir/my_wc.c.o"
   "Practical8"
   "Practical8.pdb"
 )
