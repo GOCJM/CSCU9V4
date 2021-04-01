@@ -144,6 +144,19 @@ Practical8_hexTest/fast:
 .PHONY : Practical8_hexTest/fast
 
 #=============================================================================
+# Target rules for targets named Practical8_e1
+
+# Build rule for target.
+Practical8_e1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Practical8_e1
+.PHONY : Practical8_e1
+
+# fast build rule for target.
+Practical8_e1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_e1.dir/build.make CMakeFiles/Practical8_e1.dir/build
+.PHONY : Practical8_e1/fast
+
+#=============================================================================
 # Target rules for targets named Practical8_hex
 
 # Build rule for target.
@@ -168,6 +181,33 @@ Practical8: cmake_check_build_system
 Practical8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8.dir/build.make CMakeFiles/Practical8.dir/build
 .PHONY : Practical8/fast
+
+exercise1.o: exercise1.c.o
+
+.PHONY : exercise1.o
+
+# target to build an object file
+exercise1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_e1.dir/build.make CMakeFiles/Practical8_e1.dir/exercise1.c.o
+.PHONY : exercise1.c.o
+
+exercise1.i: exercise1.c.i
+
+.PHONY : exercise1.i
+
+# target to preprocess a source file
+exercise1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_e1.dir/build.make CMakeFiles/Practical8_e1.dir/exercise1.c.i
+.PHONY : exercise1.c.i
+
+exercise1.s: exercise1.c.s
+
+.PHONY : exercise1.s
+
+# target to generate assembly for a file
+exercise1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practical8_e1.dir/build.make CMakeFiles/Practical8_e1.dir/exercise1.c.s
+.PHONY : exercise1.c.s
 
 hexWitchCraft.o: hexWitchCraft.c.o
 
@@ -259,8 +299,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Practical8"
+	@echo "... Practical8_e1"
 	@echo "... Practical8_hex"
 	@echo "... Practical8_hexTest"
+	@echo "... exercise1.o"
+	@echo "... exercise1.i"
+	@echo "... exercise1.s"
 	@echo "... hexWitchCraft.o"
 	@echo "... hexWitchCraft.i"
 	@echo "... hexWitchCraft.s"
