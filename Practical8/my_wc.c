@@ -22,7 +22,8 @@ int main(int argc, char *argv[]) {
             if (temporary != character && isEnd) {
                 numberOfWords++;
                 isEnd = false;
-            } else if (character == '\n') {
+            }
+            if (character == '\n') {
                 numberOfLines++;
             }
         } else {

@@ -53,6 +53,7 @@ int main(int argc, char *argv[]) {
             printf(".");
         }
     }
+    fclose(filePointer);
     return 0;
 }
 
